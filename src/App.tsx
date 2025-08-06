@@ -1,6 +1,6 @@
-import Footer from "./assets/components/Footer";
+import Footer from "./components/Footer";
 import { BrowserRouter } from "react-router-dom";
-import AppRoutes from "./assets/routes";
+import AppRoutes from "./routes";
 
 function App() {
 	return (
