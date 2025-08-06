@@ -1,6 +1,6 @@
 export default function Footer() {
 	return (
-		<footer id="footer">
+		<footer className="footer">
 			<div>
         <span>JrMedeiros © 2025</span>
 			</div>
