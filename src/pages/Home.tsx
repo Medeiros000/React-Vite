@@ -15,8 +15,8 @@ export default function Home() {
 		const loadFeatures = async () => {
 			// Aqui você faria uma chamada à API
 			const data = [
-				{ title: "Recurso 1", description: "Descrição 1", icon: "./src/assets/react.svg" },
-				{ title: "Recurso 2", description: "Descrição 2", icon: "./src/assets/react.svg" },
+				{ title: "Recurso 1", description: "Descrição 1", icon: "./public/vite.svg" },
+				{ title: "Recurso 2", description: "Descrição 2", icon: "./public/react.svg" },
 			];
 			setFeatures(data);
 			setLoading(false);
