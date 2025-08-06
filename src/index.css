@@ -36,7 +36,7 @@ body {
 }
 
 #root {
-  width: 100%;
+	width: 100%;
 }
 
 h1 {
@@ -130,9 +130,9 @@ button:focus-visible {
 }
 
 .hero p {
-  font-size: 1.2rem;
-  margin: 1rem 0;
-  padding: 1rem;
+	font-size: 1.2rem;
+	margin: 1rem 0;
+	padding: 1rem;
 }
 
 .login {
@@ -144,10 +144,10 @@ button:focus-visible {
 }
 
 .login span {
-  display: block;
-  font-size: 2.5rem;
-  margin: 2.5rem 0 0;
-  padding: 2rem;
+	display: block;
+	font-size: 2.5rem;
+	margin: 2.5rem 0 0;
+	padding: 2rem;
 }
 
 .features {
@@ -205,4 +205,48 @@ button:focus-visible {
 .footer h1 {
 	margin: 0;
 	font-size: 1.5rem;
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 600px) {
+	.navbar-content h1 {
+		margin: 0.5rem 0;
+	}
+	.navbar-content a {
+		margin: 0.5rem;
+	}
+  .hero {
+    padding: 1rem;
+    margin: 0 auto;
+  }
+	.hero span {
+		font-size: 2rem;
+	}
+	.hero p {
+		font-size: 1rem;
+	}
+  .login {
+    padding: 1rem;
+    margin: 0 auto;
+  }
+	.login span {
+		font-size: 2rem;
+	}
+	.features h2 {
+		font-size: 1.2rem;
+	}
+	.feature-card {
+		padding: 0.5rem;
+		margin: 0.5rem;
+	}
+	.feature-icon-title img {
+		width: 20px;
+		height: 20px;
+	}
+	.feature-icon-title h3 {
+		font-size: 1.2rem;
+	}
+	.footer h1 {
+		font-size: 1.2rem;
+	}
 }
